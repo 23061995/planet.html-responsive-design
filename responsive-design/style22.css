@@ -1,0 +1,48 @@
+/* ************
+    Typography - տպագրություն
+*************** */
+
+h2,
+h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+}
+
+a {
+    color: #1792d2;
+}
+
+a:hover,
+a:focus {
+    color: #143774;
+}
+
+.article-title {
+    font-size: 1.5rem;
+}
+
+strong{
+    font-weight: bolder;
+}
+
+.article-read-more,
+.article-info {
+    font-size: .875rem;
+}
+
+.article-read-more {
+    color: #1792d2;
+    text-decoration: none;
+    font-weight: 700;
+} 
+
+.article-read-more:hover,
+.article-read-more:focus {
+    color: #143774;
+    text-decoration: underline;  
+} 
+
+/* ************
+    Layout - դասավորություն
+*************** */

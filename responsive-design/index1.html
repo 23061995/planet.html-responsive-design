@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive design</title>
+    <style>
+
+      body {
+         font-size: 1.125rem;
+         color: #707070;
+         margin: 0;
+      }
+      
+      .container {
+         width: 90%;
+         max-width: 980px;
+         margin: 0 auto;
+      }
+
+      h1 {
+         font-size: 3rem;
+         color: #212614;
+         text-align: center;
+      }
+
+      h1 span {
+         color: #b7832f;
+      }
+
+      h2 {
+         font-size: 1.5rem;
+      }
+      p {
+         margin-top: 0;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .columns {
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-start;
+         margin: 1em 0;
+      }
+
+      @media (max-width: 600px) {
+         .columns {
+            flex-direction: column;
+         }
+      }
+
+      .col-bg {
+         background: #212614;
+         color: #fff;
+         padding: 1em;
+      }
+      .col-1 {
+         width: 20%;
+      }
+      .col-2 {
+         width: 45%;
+      }
+      .col-3 {
+         width: 70%;
+      }
+
+      @media (max-width: 600px) {
+         .col-1,
+         .col-2,
+         .col-3 {
+            width: 95%;
+         }
+      }
+
+    </style>
+</head>
+<body>
+
+   <div class="container">
+      <h1>Let's start <span>getting a little </span> more fancy</h1>
+      <img src="elephants.avif" alt="">
+      <div class="columns">
+         <div class="col col-1">
+            <h2>Dolor sit</h2>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Magnam est quo iure tenetur alias earum dolores ullam fugit
+               vel deserunt quas placeat dolorum eveniet, minima illo animi!
+               Eaque non, totam ipsum hic quas alias placeat sunt delectus,
+               aspernatur facere incidunt minima magnam. Qui aliquid tenetur exercitationem, nostrum explicabo 
+               rerum adipisci recusandae, inventore veniam quos assumenda.
+            </p>
+         </div>
+         <div class="col col-2">
+            <h2>consectetur adepsiting</h2>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Magnam est quo iure tenetur alias earum dolores ullam fugit
+               vel deserunt quas placeat dolorum eveniet, minima illo animi!
+               Eaque non, totam ipsum hic quas alias placeat sunt delectus,
+               aspernatur facere incidunt minima magnam. Qui aliquid tenetur exercitationem, nostrum explicabo 
+               rerum adipisci recusandae, inventore veniam quos assumenda.</p>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vitae dicta unde, error dolor pariatur accusantium nam!
+                Quae dignissimos alias natus provident optio repellat esse,possimus ut.
+                Officiis enim delectus facilis!
+            </p>
+         </div>
+         <div class="col col-1 col-bg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Amet minus laborum veritatis ut nam optio alias magni
+                 voluptatem aspernatur. Ex, cumque quaerat. Reprehenderit 
+                 quisquam magnam provident earum error incidunt a asperiores commodi non, 
+                 nulla temporibus, delectus veritatis obcaecati amet maxime minima officiis!
+                  Quod perferendis necessitatibus architecto assumenda.
+                Saepe, est temporibus.
+            </p>
+         </div>
+      </div>
+
+      <div class="columns">
+         <div class="col col-3">
+            <h2> Amet minus laborum veritatis</h2>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nam quos ipsam doloremque ea ipsa corrupti asperiores nemo 
+                dolores, eos saepe maiores voluptatem vel non porro sit temporibus deleniti a omnis.
+                Corrupti a veritatis deserunt
+                praesentium modi adipisci maiores quisquam earum.
+            </p>
+         </div>
+         <div class="col col-1 col-bg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quod commodi magni quisquam, delectus exercitationem distinctio nam nisi
+            eligendi illo animi nulla ad incidunt aspernatur eum.
+            </p>
+         </div>
+      </div>
+
+   </div>
+    
+</body>
+</html>
